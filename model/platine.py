@@ -17,6 +17,7 @@ class Platine:
             
         #initialisation des boutons 
         self.bouton_debut = Button(21)
+        self.debut_appuye = False
         self.bouton_sauvegarde = Button(20)
         
         #initialisation de l'écran LCD
@@ -24,5 +25,4 @@ class Platine:
         self.lcd.init_lcd(None,1)
         self.lcd.clear()
 
-        
     
