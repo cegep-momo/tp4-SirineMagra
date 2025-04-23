@@ -1,3 +1,4 @@
+from time import sleep
 
 class View:
     "interface utilisateur pour afficher des éléments sur l'écran LCD"
@@ -19,6 +20,11 @@ class View:
         self.effacer()
         self.lcd.write(0,0,f"Valeur ADC: {adc}")
         self.lcd.write(0,1,"Voltage: %.2f"%(voltage))  
-            
+        
+    def afficher_prise_mesure(self):
+        self.effacer()
+        self.lcd.write(0,0,"Prise des mesures")
+        sleep(2)
+        
     def effacer(self):
         self.lcd.clear()

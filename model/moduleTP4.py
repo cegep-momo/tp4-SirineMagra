@@ -7,7 +7,8 @@ class Mesure:
         self.dataMesure = dataMesure
         
     def __repr__(self):
-        return self.dateHeureMesure + self.dataMesure
+        return self.dateHeureMesure +self.dataMesure[0]+self.dataMesure[1]
     
     def afficherMesure(self):
-        pass
+        return f"Date :{self.dateHeureMesure}\n"+f"{self.dataMesure[0]}\n"+f"{self.dataMesure[1]}"
+    
