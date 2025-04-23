@@ -34,8 +34,9 @@ class Controler:
             if self.platine.bouton_sauvegarde.is_pressed:
                 self.vue.afficher_prise_mesure()
                 self.mesure.dateHeureMesure = str(datetime.datetime.now())
-                self.mesure.dataMesure = [{f"Valeur ADC : {self.valeur_adc}"},{f"Valeur voltage : {self.valeur_voltage}"}]
-                print(self.mesure)
+                self.mesure.dataMesure = [{self.valeur_adc},{self.valeur_voltage}]
+                print(self.mesure.afficherMesure())
+                self.mesure.sauvegarder_json()
                 sleep(1)
          
             sleep(0.1) 
