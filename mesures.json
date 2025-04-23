@@ -1,0 +1,89 @@
+{
+    "Mesures": [
+        {
+            "datePartie": "2025-04-23 03:45:52.601261",
+            "valeurACD": "{119}",
+            "valeurVoltage": "{1.54}"
+        },
+        {
+            "datePartie": "2025-04-23 03:46:02.409631",
+            "valeurACD": "{119}",
+            "valeurVoltage": "{1.54}"
+        },
+        {
+            "datePartie": "2025-04-23 03:47:31.419002",
+            "valeurACD": "{119}",
+            "valeurVoltage": "{1.54}"
+        },
+        {
+            "datePartie": "2025-04-23 03:47:44.426968",
+            "valeurACD": "{188}",
+            "valeurVoltage": "{2.4329411764705884}"
+        },
+        {
+            "datePartie": "2025-04-23 03:47:51.126855",
+            "valeurACD": "{83}",
+            "valeurVoltage": "{1.0741176470588234}"
+        },
+        {
+            "datePartie": "2025-04-23 03:48:39.069626",
+            "valeurACD": "{83}",
+            "valeurVoltage": "{1.0741176470588234}"
+        },
+        {
+            "datePartie": "2025-04-23 03:52:25.895830",
+            "valeurACD": "{0}",
+            "valeurVoltage": "{0}"
+        },
+        {
+            "datePartie": "2025-04-23 03:53:31.815549",
+            "valeurACD": "{0}",
+            "valeurVoltage": "{0.0}"
+        },
+        {
+            "datePartie": "2025-04-23 03:53:38.218310",
+            "valeurACD": "{0}",
+            "valeurVoltage": "{0.0}"
+        },
+        {
+            "datePartie": "2025-04-23 03:53:44.620228",
+            "valeurACD": "{92}",
+            "valeurVoltage": "{1.1905882352941175}"
+        },
+        {
+            "datePartie": "2025-04-23 03:54:30.887776",
+            "valeurACD": "{153}",
+            "valeurVoltage": "{1.9799999999999998}"
+        },
+        {
+            "datePartie": "2025-04-23 03:54:45.112509",
+            "valeurACD": "{102}",
+            "valeurVoltage": "{1.32}"
+        },
+        {
+            "datePartie": "2025-04-23 03:54:52.615892",
+            "valeurACD": "{102}",
+            "valeurVoltage": "{1.32}"
+        },
+        {
+            "datePartie": "2025-04-23 03:56:21.500578",
+            "valeurACD": "{175}",
+            "valeurVoltage": "{2.264705882352941}"
+        },
+        {
+            "datePartie": "2025-04-23 04:01:02.969806",
+            "valeurACD": "{175}",
+            "valeurVoltage": "{2.264705882352941}"
+        },
+        {
+            "datePartie": "2025-04-23 04:01:06.370110",
+            "valeurACD": "{175}",
+            "valeurVoltage": "{2.264705882352941}"
+        },
+        {
+            "datePartie": "2025-04-23 04:12:25.785866",
+            "valeurACD": "{253}",
+            "valeurVoltage": "{3.2741176470588234}"
+        }
+    ]
+}
