@@ -25,3 +25,7 @@ class Platine:
         self.lcd.clear()
 
     
+    def retourner_texte_debut(self):
+        if self.bouton_debut.is_pressed:
+            return "Début"
+    

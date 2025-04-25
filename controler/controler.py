@@ -20,11 +20,13 @@ class Controler:
             if self.platine.bouton_debut.is_pressed:
                 if self.debut_appuye == False:
                     self.debut_appuye = True
+                    self.platine.debut_appuye = True
                     self.vue.afficher_debut()
                     sleep(2)
                     self.vue.effacer()
                 else:
                     self.debut_appuye = False
+                    self.platine.debut_appuye = False
                     self.vue.afficher_fin()
                     sleep(2)
                     self.vue.effacer()
